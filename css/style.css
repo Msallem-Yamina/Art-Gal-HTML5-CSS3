@@ -1323,6 +1323,11 @@ footer .copyright {
 }
 
 /* Media Query */
+@media (max-width:630px) {
+  .events .subscribe form{
+    width: 400px;
+  }
+}
 @media (max-width:767px) {
   header .logo{
     width: 100%;
