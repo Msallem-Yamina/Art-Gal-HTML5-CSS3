@@ -1323,7 +1323,13 @@ footer .copyright {
 }
 
 /* Media Query */
-@media (max-width:630px) {
+@media (max-width:410px) {
+  .events .subscribe form{
+    width: 260px;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width:410px)and (max-width:650px) {
   .events .subscribe form{
     width: 400px;
   }
